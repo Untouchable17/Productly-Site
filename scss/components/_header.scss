@@ -1,0 +1,40 @@
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    .menu__list {
+        display: flex;
+        margin-left: 50px;
+
+        &-item:not(:first-child) {
+            margin-left: 40px;
+        }
+    }
+
+    .user-nav {
+
+        margin-left: 52px;
+        margin-right: 14px;
+
+        .btn {
+            padding: 11px 25px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        &__link:not(:first-child) {
+            background-color: $btn-color;
+            border: 2px solid $btn-color;
+            color: #fff;
+        }
+
+        &__link:not(:last-child) {
+            
+            border: 2px solid #BCD0E5;
+            margin-right: 12px;
+            color: #173A56;
+        }
+    }
+}

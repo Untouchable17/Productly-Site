@@ -1,0 +1,34 @@
+$main-color: #2F281E;
+$sort-color: #544837;
+
+$btn-color: #FF9900;
+
+@import 'bases/functions';
+@import 'bases/fonts';
+@import 'bases/reset';
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+// header 
+@import 'components/header';
+
+
+// section-top
+@import 'components/section-top';
+
+
+// section-course 
+@import 'components/section-course';
+
+
+// section-people
+@import 'components/section-people';
+
+// section-manager
+@import 'components/section-manager';

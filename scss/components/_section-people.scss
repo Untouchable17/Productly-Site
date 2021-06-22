@@ -1,0 +1,36 @@
+.block-professional {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between; 
+    font-weight: 500; 
+
+
+    .professionals-row {
+        max-width: 480px;
+        color: $sort-color;
+        line-height: 26px;
+
+        h2 {
+            margin: 22px 0px 25px 0px;
+            font-size: 36px;
+            font-weight: bold;
+            color: $main-color;
+        }
+
+        .professional__skill {
+
+            &-description {
+                margin: 30px 0px 25px 0px;
+
+            
+                .skill-title {
+                        color: $main-color;
+                        font-weight: 700;
+                
+                }
+                
+            }
+           
+        }
+    }
+}

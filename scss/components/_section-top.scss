@@ -1,0 +1,39 @@
+.block-top {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+
+    max-width: 458px;
+
+    .top__title {
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 54px;
+        color: $main-color;
+    }
+    .top__about {
+        margin: 30px 0px 50px 0px;
+        color: $sort-color;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .top__nav {
+        &-link {
+            padding: 15px 42px;
+            background: $btn-color;
+            border-radius: 4px;
+            color: #fff;
+            margin-right: 30px;
+        }
+
+        &-video {
+            color: $btn-color;
+            text-decoration:underline;
+        }
+    }
+}
+
