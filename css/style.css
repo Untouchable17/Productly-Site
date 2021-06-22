@@ -89,6 +89,24 @@ a {
 .row .top__nav-video {
   color: #FF9900;
   text-decoration: underline;
+  position: relative;
+  padding-left: 27px;
+}
+.row .top__nav-video::before {
+  content: "";
+  top: 2px;
+  position: absolute;
+  left: 0;
+  width: 17px;
+  height: 19px;
+  background-image: url("../images/play.svg");
+}
+
+.section-course {
+  background-image: url("../images/bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .course-title {
